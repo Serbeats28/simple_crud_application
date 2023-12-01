@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.adminLoginForm{
+    width: 100%;
+    
+}
+ .adminForm{
+  width: 30%;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 350px 350px 350px;
+    padding: 30px;
+    gap: 10px;
+    margin: 10px;
+    
+}
+
+@media screen and (max-width:800px) {
+    .grid{
+        margin-left: 25%;
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .card-grid{
+        margin-top: 10px;
+    }
+    
+     
+}
+
+@media (max-width:800px) {
+    
+    .adminForm{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width:760px) {
+    .grid{
+        margin: auto ;
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .card-grid{
+        margin-top: 10px;
+    }
+    
+     
+}
+
+@media screen and (max-width:680px) {
+    .grid{
+        margin-left: 15% ;
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .card-grid{
+        margin-top: 10px;
+    }
+    
+     
+}
+
+
+@media (max-width:500px) {
+    
+    .adminForm{
+        width: 60%;
+    }
+}

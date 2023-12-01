@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#eeeff1; ;
+}
+
+.navBar{
+    background-color: #4a76ee;
+    
+}
+.sideBar {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sideBar-link a{
+     padding: 10px 10px 10px 50px;
+     text-decoration: none;
+     color: #eeeff1;
+     display: block;
+     font-size: 20px;
+     margin-top: 50px;
+     margin-left: 50px;
+  }
+  .sideBar #btnSideBarClose {
+  position: absolute;
+  top: 70px;
+   
+    
+  }
+
+  .loginForm{
+    width: 50%;
+
+  }
+  
+  @media (max-width:980px){
+    .loginForm{
+        width: 80%;
+    
+      }
+  }
+  @media (max-width:768px){
+    .sideBar{
+        left: 70%;
+    }
+    .sideBar-link a{
+        margin-right: 30px;
+    }
+  }
+  @media (max-width:650px){
+    .sideBar{
+        left: 65%;
+    }
+    .sideBar-link a{
+        margin-right: 30px;
+    }
+  }
+  @media (max-width:550px){
+    .sideBar{
+        left: 65%;
+    }
+    .sideBar-link a{
+        margin-left: 30px;
+    }
+  }
+
+
+  @media (max-width:460px){
+    .sideBar{
+        left: 45%;
+    }
+    .sideBar-link a{
+        margin-left: 50px;
+    }
+  }
